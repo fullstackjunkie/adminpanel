@@ -57,7 +57,6 @@
 .right__sidebar {
     width: 60%;
     height: 98vh;
-    /* background-color: orange; */
 }
 
 .top__right-bar {
@@ -69,13 +68,11 @@
     background-color: #F3F4F6;
     font-size: 24px;
     font-weight: bold;
-
 }
 
 .top__right-bar > p {
     padding: 0 40px;
     width: 70%;
-    
 }
 
 .top__right-bar > .bottom-text {
@@ -83,25 +80,18 @@
 }
 
 .middle__right-form {
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
-    /* box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2); */
     box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.3);
     margin-bottom: 2px;
     width: 100%;
     height: 34vh;
-    /* background-color: grey; */
-    /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);  */
 }
 h2 {
-    
     padding: 0 40px;
 }
 .form__handler {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0 40px; */
-    
 }
 
 input, label {
@@ -111,11 +101,9 @@ input, label {
     flex-direction: column;
     margin: 2px 40px;
     padding-top: 6px;
-   
 }
 
 input:focus {
-    
     border: 1px solid blue;
     box-shadow:#596D48;
 }
@@ -123,16 +111,11 @@ input:invalid {
     border-color:red;
 }
 
-
-
-
-
 .bottom__right-bar {
     width: 100%;
     height: var(--right-height);
     background-color: #F3F4F6;
 }
-
 
 /* BOTTOM BAR */
 
